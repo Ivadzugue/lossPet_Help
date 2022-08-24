@@ -1,0 +1,27 @@
+body{
+    padding-top:2vh;
+    background: #ffffff;
+    color:#EFEEEE;
+
+}
+form-group{
+    background: #f5683d;
+}
+.col-form-label{
+    font-weight: bold;
+}
+
+h1{
+    text-align:center;
+}
+.container{
+    background: #325D79;
+}
+
+.radio-inline{
+    text-align: right;
+}
+button.btn{
+    background:#F26627
+}
+
