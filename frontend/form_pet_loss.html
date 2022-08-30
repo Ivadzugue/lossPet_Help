@@ -27,54 +27,31 @@
                     <div class="row form-group">
                         <label for="nombre" class="col-form-label col-md-4">Nombre de la mascota</label>
                         <div class="col-md-8">
-                            <input type="text" name="nombre" value="" id="nombre" class="form-control" required>
+                            <input type="text" name="nombre" value="" id="nombre" class="form-control"
+                                placeholder="Firulais" required>
                         </div>
                     </div>
                     <div class="row form-group">
-                        <label for="edad" class="col-form-label col-md-4">Edad</label>
+                        <label for="edad" class="col-form-label col-md-4">Edad aproximada</label>
                         <div class="col-md-8">
-                            <input type="number" name="edad" value="" id="edad" class="form-control" required
-                                pattern="[0-9]">
+                            <input type="text" name="edad" value="" id="edad" class="form-control " placeholder="2 años"
+                                required>
                         </div>
                     </div>
                     <div class="row form-group">
-                        <label for="ciudad" class="col-form-label col-md-4">Ciudad</label>
-                        <div class="col-md-8">
-                            <input type="text" name="ciudad" value="" id="ciudad" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="localidad" class="col-form-label col-md-4">Localidad</label>
-                        <div class="col-md-8">
-                            <input type="text" name="localidad" value="" id="localidad" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="barrio" class="col-form-label col-md-4">Barrio</label>
-                        <div class="col-md-8">
-                            <input type="text" name="barrio" value="" id="barrio" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="microship" class="col-form-label col-md-4">Microship</label>
-                        <div class="col-md-8">
-                            <input type="text" name="microship" value="" id="microship" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="tipo" class="col-form-label col-md-4">Tipo</label>
+                        <label for="tipo" class="col-form-label col-md-4">Especie</label>
                         <div class="form-group col-md-8">
                             <select class="form-control" id="sel1" required>
-                                <option>Perro</option>
-                                <option>Gato</option>
-                                <option>Otro</option>
+                                <option>Canino</option>
+                                <option>Felino</option>
                             </select>
                         </div>
                     </div>
                     <div class="row form-group">
                         <label for="raza" class="col-form-label col-md-4">Raza</label>
                         <div class="col-md-8">
-                            <input type="text" name="raza" value="" id="raza" class="form-control" required>
+                            <input type="text" name="raza" value="" id="raza" class="form-control"
+                                placeholder="Labrador" required>
                         </div>
                     </div>
                     <div class="row form-group">
@@ -91,14 +68,18 @@
                     <div class="row form-group">
                         <label for="color" class="col-form-label col-md-4">Color</label>
                         <div class="col-md-8">
-                            <input type="text" name="color" value="" id="color" class="form-control" required>
+                            <input type="text" name="color" value="" id="color" class="form-control" placeholder="Café"
+                                required>
                         </div>
                     </div>
                     <div class="row form-group">
                         <label for="descripcion" class="col-form-label col-md-4">Descripción</label>
                         <div class="col-md-8">
+                            <p>Escribe una breve descripcion de la mascota, lugar donde sucedió el infortunado suceso y
+                                cualquier característica que
+                                nos ayude a encontrar el hogar del peludito.</p>
                             <textarea rows="4" name="descripcion" value="" id="descripcion" class="form-control"
-                                required></textarea>
+                                placeholder="Descripción..." required></textarea>
                         </div>
                     </div>
                     <div class="row form-group">
@@ -108,21 +89,19 @@
                         </div>
                     </div>
                     <div class="row form-group">
-                        <label for="email" class="col-form-label col-md-4">Email</label>
-                        <div class="col-md-8">
-                            <input type="email" name="email" value="" id="email" class="form-control">
+                        <label for="foto" class="col-form-label col-md-4">Adjuntar foto</label>
+                        <div class="col col-md-8">
+                            <!--<label class="input-group-btn"> -->
+                            <div class="form-group">
+                                <input type="file" id="foto">
+                                <!-- <label for="ejemplo_archivo_1">Adjuntar un archivo</label> -->
+
+                            </div>
+                            </label>
                         </div>
                     </div>
-                    <div class="row form-group">
-                        <label for="telefono" class="col-form-label col-md-4">telefono</label>
-                        <div class="col-md-8">
-                            <input type="number" name="telefono" value="" id="telefono" class="form-control " required
-                                pattern="[0-9]" maxlength="10">
-                        </div>
-                    </div>
-                    <div class="col-md-8">
-                        <button type="submit" class="btn btn-primary ">Guardar</button>
-                    </div>
+                    <button type="submit" class="btn btn-primary justify-content-center">Guardar</button>
+                    <br><br>
                 </form>
             </div>
 
