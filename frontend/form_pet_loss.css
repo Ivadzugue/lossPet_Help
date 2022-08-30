@@ -2,11 +2,8 @@ body{
     padding-top:2vh;
     background: #ffffff;
     color:#EFEEEE;
+}
 
-}
-form-group{
-    background: #f5683d;
-}
 .col-form-label{
     font-weight: bold;
 }
@@ -20,7 +17,21 @@ h1{
 
 .radio-inline{
     text-align: right;
+    position: relative;
+    top: 30%;
+    left: 20%;
 }
+
 button.btn{
-    background:#F26627
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: coral;
 }
+.banner_foto{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: coral;
+}
+

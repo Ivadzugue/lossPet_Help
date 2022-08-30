@@ -25,37 +25,19 @@
 
                 <form>
                     <div class="row form-group">
-                        <label for="ciudad" class="col-form-label col-md-4">Ciudad</label>
-                        <div class="col-md-8">
-                            <input type="text" name="ciudad" value="" id="ciudad" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="localidad" class="col-form-label col-md-4">Localidad</label>
-                        <div class="col-md-8">
-                            <input type="text" name="localidad" value="" id="localidad" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="barrio" class="col-form-label col-md-4">Barrio</label>
-                        <div class="col-md-8">
-                            <input type="text" name="barrio" value="" id="barrio" class="form-control" required>
-                        </div>
-                    </div>
-                    <div class="row form-group">
-                        <label for="tipo" class="col-form-label col-md-4">Tipo</label>
+                        <label for="tipo" class="col-form-label col-md-4">Especie</label>
                         <div class="form-group col-md-8">
                             <select class="form-control" id="sel1" required>
-                                <option>Perro</option>
-                                <option>Gato</option>
-                                <option>Otro</option>
+                                <option>Canino</option>
+                                <option>Felino</option>
                             </select>
                         </div>
                     </div>
                     <div class="row form-group">
-                        <label for="raza" class="col-form-label col-md-4">Raza</label>
+                        <label for="edad" class="col-form-label col-md-4">Edad aproximada</label>
                         <div class="col-md-8">
-                            <input type="text" name="raza" value="" id="raza" class="form-control" required>
+                            <input type="text" name="edad" value="" id="edad" class="form-control " placeholder="2 años"
+                                required>
                         </div>
                     </div>
                     <div class="row form-group">
@@ -73,6 +55,21 @@
                         <label for="color" class="col-form-label col-md-4">Color</label>
                         <div class="col-md-8">
                             <input type="text" name="color" value="" id="color" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="raza" class="col-form-label col-md-4">Raza</label>
+                        <div class="col-md-8">
+                            <input type="text" name="raza" value="" id="raza" class="form-control" required>
+                        </div>
+                    </div>
+                    <div class="row form-group">
+                        <label for="descripcion" class="col-form-label col-md-4">Descripción</label>
+                        <div class="col-md-8">
+                            <p>Escribe una breve descripcion de la mascota, lugar donde la encontraste y
+                                cualquier característica que nos ayude a encontrar el hogar del peludito.</p>
+                            <textarea rows="4" name="descripcion" value="" id="descripcion" class="form-control"
+                                placeholder="Descripción..." required></textarea>
                         </div>
                     </div>
                     <div class="row form-group">
