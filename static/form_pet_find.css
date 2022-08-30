@@ -22,6 +22,9 @@ h1{
     text-align: right;
 }
 button.btn{
-    background:#F26627
+    position: relative;
+    top: 50%;
+    left: 50%;
+    background: coral;
 }
 
