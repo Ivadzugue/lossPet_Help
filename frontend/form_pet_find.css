@@ -1,9 +1,10 @@
 body{
-    padding-top:2vh;
+    padding-top:3vh;
     background: #ffffff;
     color:#EFEEEE;
 
 }
+
 form-group{
     background: #f5683d;
 }
@@ -22,7 +23,6 @@ h1{
     text-align: right;
 }
 button.btn{
-    position: relative;
     top: 50%;
     left: 50%;
     background: coral;
