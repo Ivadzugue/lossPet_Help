@@ -1,6 +1,6 @@
 body{
-    padding-top:2vh;
-    background: #ffffff;
+    padding: 3%;
+    background: EFEEEE;
     color:#EFEEEE;
 }
 
@@ -13,6 +13,7 @@ h1{
 }
 .container{
     background: #325D79;
+    border-radius: 15px;
 }
 
 .radio-inline{
@@ -23,7 +24,6 @@ h1{
 }
 
 button.btn{
-    position: relative;
     top: 50%;
     left: 50%;
     background: coral;
@@ -35,3 +35,6 @@ button.btn{
     background: coral;
 }
 
+.width-100{
+    width: 100px;
+}
