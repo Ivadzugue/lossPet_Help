@@ -25,6 +25,7 @@ public class Especie {
 
     public void setEspecie(String especie) {
         this.especie = especie;
+        
     }
 
     @Override
