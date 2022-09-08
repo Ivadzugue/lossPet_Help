@@ -11571,3 +11571,13 @@ h4.title{
 .white{
     background: #ffffff;
 }
+
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+.logo {
+ height: 100px;
+ width: 100px;
+}
+
