@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Registro Mascotas perdidas</title>
+    <title>Regristro</title>
     <!-- Font Awesome icons (free version)-->
     <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
     <!-- Google fonts-->
@@ -38,7 +38,7 @@
         <div class="container2">
             <!-- Portfolio Section Heading-->
             <br>
-            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Mi peludito
+            <h2 class="page-section-heading text-center text-uppercase text-secondary mb-0">Registro
             </h2>
             <!-- Icon Divider-->
             <div class="divider-custom">
@@ -53,92 +53,43 @@
                         <div class="container">
                             <a class="navbar-brand" href="index.html"></a>
                         </div>
-                        <h1 class="display-4">Mascotas Perdidas</h1>
-                        <hr class="bg-info">
-                        <p class="pb-0 mb-0 font-italic .small">Por favor diligencie los datos correspondientes de la
-                            mascota, de una breve
-                            descripción de esta y de como y donde se presento la perdida</p>
-                        <p class=" text-danger" small pt-0 mt-0>*Todos los campos son obligatorios</p>
+                        <p class="pb-0 mb-0 font-italic .small text-center">Ingrese los datos solicitados en el
+                            formulario para crear su usuario</p>
+                        <p class=" text-danger text-center" small pt-0 mt-0>*Todos los campos son obligatorios</p>
 
                         <form id="formulario">
                             <div class="row form-group">
-                                <label for="nombre" class="col-form-label col-md-4">Nombre de la
-                                    mascota</label>
-                                <div class="col-md-8">
-                                    <input type="text" name="nombre" value="" id="nombre" class="form-control"
-                                        placeholder="Ejm: Firulais" required>
-                                </div>
+                                <label for="nombre" class="col-form-label col-md-4">Nombre</label>
+                                <input type="text" name="nombre" value="" id="nombre" class="form-control"
+                                    placeholder="nombre" required>
                             </div>
                             <div class="row form-group">
-                                <label for="edad" class="col-form-label col-md-4">Edad apróximada</label>
-                                <div class="col-md-8">
-                                    <input type="text" name="edad" value="" id="edad" class="form-control "
-                                        placeholder="Ejm: 2 años" required>
-                                </div>
+                                <label for="apellido" class="col-form-label col-md-4">Apellido</label>
+                                <input type="text" name="apellido" value="" id="apellido" class="form-control"
+                                    placeholder="apellido" required>
                             </div>
                             <div class="row form-group">
-                                <label for="tipo" class="col-form-label col-md-4">Especie</label>
-                                <div class="form-group col-md-8">
-                                    <select class="form-control" id="especie" required>
-                                        <option>Canino</option>
-                                        <option>Felino</option>
-                                    </select>
-                                </div>
+                                <label for="telefono" class="col-form-label col-md-4">Telefono</label>
+                                <input type="number" name="telefono" value="" id="telefono" class="form-control "
+                                    placeholder="telefono" required pattern="[0-9]" maxlength="8">
                             </div>
                             <div class="row form-group">
-                                <label for="tipo" class="col-form-label col-md-4">Sexo</label>
-                                <div class="form-group col-md-8">
-                                    <select class="form-control" id="sexo" required>
-                                        <option>Macho</option>
-                                        <option>Hembra</option>
-                                    </select>
-                                </div>
+                                <label for="correo" class="col-form-label col-md-4">Correo</label>
+                                <input type="email" name="correo" value="" id="correo" class="form-control"
+                                    placeholder="Correo" required>
                             </div>
                             <div class="row form-group">
-                                <label for="color" class="col-form-label col-md-4">Color</label>
-                                <div class="col-md-8">
-                                    <input type="text" name="color" value="" id="color" class="form-control"
-                                        placeholder="Ejm: Negro con manchas cafés" required>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label for="raza" class="col-form-label col-md-4">Raza</label>
-                                <div class="col-md-8">
-                                    <input type="text" name="raza" value="" id="raza" class="form-control"
-                                        placeholder="Ejm: Labrador" required>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label for="descripcion" class="col-form-label col-md-4">Descripción</label>
-                                <div class="col-md-8">
-                                    <p class=" font-italic .small">Escribe una breve descripcion de la
-                                        mascota,
-                                        lugar donde la encontraste y
-                                        cualquier característica que nos ayude a encontrar el hogar del
-                                        peludito.</p>
-                                    <textarea rows="4" name="descripcion" value="" id="descripcion" class="form-control"
-                                        placeholder="Descripción..." required></textarea>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label for="fecha" class="col-form-label col-md-4">Fecha</label>
-                                <div class="col-md-8">
-                                    <input type="date" name="fecha" value="fecha" id="fecha" class="form-control"
-                                        required>
-                                </div>
-                            </div>
-                            <div class="row form-group">
-                                <label for="foto" class="col-form-label col-md-4">Adjuntar foto</label>
-                                <div class="col col-md-8">
-                                    <div class="form-group">
-                                        <input type="file" id="foto" accept=".jpeg,.jpg,.png">
-                                        <p class=" font-italic .small">.jpeg, jpg o png</p>
-                                    </div>
-                                </div>
+                                <label for="contraseña" class="col-form-label col-md-4">Contraseña</label>
+                                <input type="password" name="correo" value="" id="contraseña" class="form-control"
+                                    placeholder="contraseña" required>
                             </div>
                             <div class="div-center">
+                                <br><br>
                                 <button type="submit" class="btn width-100">Guardar</button>
                                 <br><br>
+                            </div>
+                            <div class="div-center">
+                                <a HREF="Login.html" class="nav-link1 col-8 ">Iniciar Sesión</a>
                             </div>
                         </form>
                     </div>
@@ -147,7 +98,7 @@
         </div>
     </section>
     <!-- Footer-->
-    <footer class="footer text-center">
+    <footer class=" footer text-center">
         <div class="container">
             <div class="row">
                 <!-- Footer Location-->

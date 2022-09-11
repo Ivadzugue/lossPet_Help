@@ -1,9 +1,3 @@
-/*!
-* Start Bootstrap - Freelancer v7.0.6 (https://startbootstrap.com/theme/freelancer)
-* Copyright 2013-2022 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
-*/
-//
 // Scripts
 // 
 
@@ -52,3 +46,35 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+/*script fetch post formulario
+function saveTransition(transitionObj) {
+
+    fetch(localhost:3000/petloss, {
+        method: 'POST',
+        headers: {
+            "Content-Type": "application/json",
+        },
+        body: JSON.stringify(transactionObject),
+    });
+}*/
+
+var petList = [];
+
+function addPet(pnombre, pedadaprox, pespecie, psexo, pcolor, praza, pdescripcion, pfecha, pimagen) {
+
+    var newMascota = {
+        nombre: pnombre,
+        edad: pedadaprox,
+        especie: pespecie,
+        sexo: psexo,
+        color: pcolor,
+        raza: praza,
+        pdescripcion: pdescripcion,
+        fecha: pfecha,
+        imagen: pimagen
+    };
+    console.log(newMascota);
+    petList.push(newMascota);
+}
+
