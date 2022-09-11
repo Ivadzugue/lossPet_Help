@@ -11323,6 +11323,9 @@ h1{
     background: rgb(26,188,156);
     border-radius: 15px;
     opacity: 0.9;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: 0,9;
 }
 
 .radio-inline{
@@ -11380,4 +11383,8 @@ img {
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
   padding: 10px;
   text-align: right
+}
+
+.mensaje {
+  color: #ffffff;
 }
