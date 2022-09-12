@@ -64,21 +64,21 @@
                                 <label for="nombre" class="col-form-label col-md-4">Nombre de la
                                     mascota</label>
                                 <div class="col-md-8">
-                                    <input type="text" name="nombre" value="" id="nombre" class="form-control"
+                                    <input type="text" name="nombre" value="" id="nombreMascota" class="form-control"
                                         placeholder="Ejm: Firulais" required>
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <label for="edad" class="col-form-label col-md-4">Edad apróximada</label>
                                 <div class="col-md-8">
-                                    <input type="text" name="edad" value="" id="edad" class="form-control "
+                                    <input type="text" name="edad" value="" id="edadMascota" class="form-control "
                                         placeholder="Ejm: 2 años" required>
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <label for="tipo" class="col-form-label col-md-4">Especie</label>
                                 <div class="form-group col-md-8">
-                                    <select class="form-control" id="especie" required>
+                                    <select class="form-control" id="especieMascota" required>
                                         <option>Canino</option>
                                         <option>Felino</option>
                                     </select>
@@ -87,7 +87,7 @@
                             <div class="row form-group">
                                 <label for="tipo" class="col-form-label col-md-4">Sexo</label>
                                 <div class="form-group col-md-8">
-                                    <select class="form-control" id="sexo" required>
+                                    <select class="form-control" id="sexoMascota" required>
                                         <option>Macho</option>
                                         <option>Hembra</option>
                                     </select>
@@ -96,14 +96,14 @@
                             <div class="row form-group">
                                 <label for="color" class="col-form-label col-md-4">Color</label>
                                 <div class="col-md-8">
-                                    <input type="text" name="color" value="" id="color" class="form-control"
+                                    <input type="text" name="color" value="" id="colorMascota" class="form-control"
                                         placeholder="Ejm: Negro con manchas cafés" required>
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <label for="raza" class="col-form-label col-md-4">Raza</label>
                                 <div class="col-md-8">
-                                    <input type="text" name="raza" value="" id="raza" class="form-control"
+                                    <input type="text" name="raza" value="" id="razaMascota" class="form-control"
                                         placeholder="Ejm: Labrador" required>
                                 </div>
                             </div>
@@ -115,14 +115,15 @@
                                         lugar donde la perdiste y
                                         cualquier característica que nos ayude a encontrar el hogar del
                                         peludito.</p>
-                                    <textarea rows="4" name="descripcion" value="" id="descripcion" class="form-control"
-                                        placeholder="Descripción..." required></textarea>
+                                    <textarea rows="4" name="descripcion" value="" id="descripcionMascota"
+                                        class="form-control" placeholder="Descripción..." required
+                                        maxlength="400"></textarea>
                                 </div>
                             </div>
                             <div class="row form-group">
                                 <label for="fecha" class="col-form-label col-md-4">Fecha</label>
                                 <div class="col-md-8">
-                                    <input type="date" name="fecha" value="fecha" id="fecha" class="form-control"
+                                    <input type="date" name="fecha" value="fecha" id="fechaMascota" class="form-control"
                                         required>
                                 </div>
                             </div>
@@ -130,7 +131,7 @@
                                 <label for="foto" class="col-form-label col-md-4">Adjuntar foto</label>
                                 <div class="col col-md-8">
                                     <div class="form-group">
-                                        <input type="file" id="foto" accept=".jpeg,.jpg,.png">
+                                        <input type="file" id="fotoMascota" accept=".jpeg,.jpg,.png">
                                         <p class=" font-italic .small">.jpeg, jpg o png</p>
                                     </div>
                                 </div>

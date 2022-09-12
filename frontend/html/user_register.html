@@ -61,27 +61,31 @@
                             <div class="row form-group">
                                 <label for="nombre" class="col-form-label col-md-4">Nombre</label>
                                 <input type="text" name="nombre" value="" id="nombre" class="form-control"
-                                    placeholder="nombre" required>
+                                    placeholder="nombre" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$"
+                                    title="Ingrese solo letras">
                             </div>
                             <div class="row form-group">
                                 <label for="apellido" class="col-form-label col-md-4">Apellido</label>
                                 <input type="text" name="apellido" value="" id="apellido" class="form-control"
-                                    placeholder="apellido" required>
+                                    placeholder="apellido" required pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" title="
+                                    Ingrese solo letras>
                             </div>
-                            <div class="row form-group">
+                            <div class=" row form-group">
                                 <label for="telefono" class="col-form-label col-md-4">Telefono</label>
                                 <input type="number" name="telefono" value="" id="telefono" class="form-control "
-                                    placeholder="telefono" required pattern="[0-9]" maxlength="8">
+                                    placeholder="311111111" required maxlength="10">
                             </div>
                             <div class="row form-group">
                                 <label for="correo" class="col-form-label col-md-4">Correo</label>
                                 <input type="email" name="correo" value="" id="correo" class="form-control"
-                                    placeholder="Correo" required>
+                                    placeholder="Correo@correo.com" required
+                                    pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[_a-z0-9]+)*(\.[a-z]{2,15})$"
+                                    title="Ingrese un correo valido">
                             </div>
                             <div class="row form-group">
                                 <label for="contraseña" class="col-form-label col-md-4">Contraseña</label>
                                 <input type="password" name="correo" value="" id="contraseña" class="form-control"
-                                    placeholder="contraseña" required>
+                                    placeholder="contraseña" required minlength="3" maxlength="12">
                             </div>
                             <div class="div-center">
                                 <br><br>
