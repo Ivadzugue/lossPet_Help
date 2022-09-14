@@ -19,11 +19,13 @@
     <link href="../css/styles.css" rel="stylesheet" />
 </head>
 
-<body id="page-top">
+<body id="page-masco-encontada">
     <!-- Navigation-->
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
-            <a class="navbar-brand" href="index.html">Mascotas <br>buscan su Hogar</a>
+            <div class="logo">
+                <a title="index" href="index.html"><img class="masthead-avatar mb-5" src="../images/logoAzul.png" /></a>
+            </div>
             <button class="navbar-toggler text-uppercase font-weight-bold bg-primary text-white rounded" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive"
                 aria-expanded="false" aria-label="Toggle navigation">
@@ -33,11 +35,14 @@
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item mx-0 mx-lg-1"><a HREF="form_pet_loss.html"
-                            class="nav-link py-3 px-0 px-lg-3 rounded">Registro <br>macotas
+                            class="nav-link py-3 px-0 px-lg-3 rounded">Registro <br>mascotas
                             perdidas</a></li>
                     <li class="nav-item mx-0 mx-lg-1"><a HREF="form_pet_find.html"
                             class="nav-link py-3 px-0 px-lg-3 rounded">Registro
-                            <br>Nombre de la mascota</a></li>
+                            <br>Mascotas Encontradas</a></li>
+                    <li class="nav-item mx-0 mx-lg-1"><a HREF="Mascotas Perdidas.html"
+                            class="nav-link py-3 px-0 px-lg-3 rounded">Mascotas
+                            <br>Perdidas</a></li>
                 </ul>
             </div>
         </div>
@@ -46,7 +51,7 @@
     <header class="masthead bg-primary text-white text-center">
         <div class="container d-flex align-items-center flex-column">
             <!-- Masthead Heading-->
-            <h4 class="masthead-heading text-uppercase mb-0">Macotas Encontradas</h4>
+            <h4 class="masthead-heading text-uppercase mb-0">Mascotas Encontradas</h4>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -234,6 +239,7 @@
                                 <!-- Portfolio Modal - Text-->
                                 <p class="mb-4">nombre mascota, edad, raza...
                                 </p>
+                                <button class="btn btn-primary" data-bs-dismiss="modal">Encontrada</button>
                                 <button class="btn btn-primary" data-bs-dismiss="modal">
                                     <i class="fas fa-xmark fa-fw"></i>
                                     Cerrar
@@ -428,7 +434,7 @@
                 <!-- Footer Location-->
                 <div class="col-lg-4 mb-5 mb-lg-0">
                     <h4 class="text-uppercase mb-4">Location</h4>
-                    <p class="lead mb-0">
+                    <p class="lead text-center">
                         Colombia
                     </p>
                 </div>
@@ -445,7 +451,7 @@
                 <!-- Footer About Text-->
                 <div class="col-lg-4">
                     <h4 class="text-uppercase mb-4">About MBH</h4>
-                    <p class="lead mb-0">
+                    <p class="lead text-center">
                         Mascotas buscan su hogar .
                     </p>
                 </div>

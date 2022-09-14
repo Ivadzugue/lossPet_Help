@@ -19,6 +19,7 @@ public class Mascota {
     private int id_especie_mascota ;
     private int id_usuario_mascota ;
 
+    
     public Mascota(int id_mascota, String nombre_mascota, String raza_mascota, String tipo_busqueda_mascota, String edad_aproximada_mascota, String sexo_mascota, String color_mascota, String descripcion_mascota, Date fecha_mascota, String estado_busqueda_mascota, Blob foto_mascota, int id_especie_mascota, int id_usuario_mascota) {
         this.id_mascota = id_mascota;
         this.nombre_mascota = nombre_mascota;
