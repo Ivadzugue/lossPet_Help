@@ -1,6 +1,0 @@
-beans\Mascota.class
-servlets\PruebaServlet.class
-beans\Usuario.class
-beans\Especie.class
-test\OperacionesBD.class
-connection\DBConnection.class
