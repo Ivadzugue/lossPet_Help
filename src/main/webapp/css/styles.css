@@ -7726,7 +7726,7 @@ textarea.form-control-lg {
 
 .text-secondary {
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-text-opacity)) !important;
+  color: rgba(, var(--bs-text-opacity)) !important;
 }
 
 .text-success {
@@ -11502,3 +11502,24 @@ html {
   }
 }
 
+img {
+ max-width: 100%;
+ max-height: 100%;
+}
+.logo {
+ height: 100px;
+ width: 100px;
+}
+
+.footer {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.info{
+   margin-left: 15px;
+  margin-right: 15px;
+
+}
